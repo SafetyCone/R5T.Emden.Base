@@ -9,6 +9,7 @@ namespace R5T.Emden
     /// </summary>
     public interface IEmailSender
     {
+        // Will fill in the "From" address.
         void Send(MailMessage message);
     }
 }
