@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Net.Mail;
+using System.Threading.Tasks;
+
 
 
 namespace R5T.Emden
@@ -9,7 +11,9 @@ namespace R5T.Emden
     /// </summary>
     public interface IEmailSender
     {
-        // Will fill in the "From" address.
+        //HACK: Will fill in the "From" address.
         void Send(MailMessage message);
+
+        Task SendAsync(MailMessage message);
     }
 }
