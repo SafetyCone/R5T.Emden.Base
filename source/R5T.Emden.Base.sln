@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Emden.Base.Construction", "R5T.Emden.Base.Construction\R5T.Emden.Base.Construction.csproj", "{5CCBFE62-C5B0-4458-9192-A43581854248}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Emden.Base.Construction", "R5T.Emden.Base.Construction\R5T.Emden.Base.Construction.csproj", "{5CCBFE62-C5B0-4458-9192-A43581854248}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Emden.Base", "R5T.Emden.Base\R5T.Emden.Base.csproj", "{B4F16C04-C72D-4E19-8D04-FF4B69CECA06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Emden.Base", "R5T.Emden.Base\R5T.Emden.Base.csproj", "{B4F16C04-C72D-4E19-8D04-FF4B69CECA06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{C163193E-B1CC-49E6-9C39-9EDBAD0239D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{2443A98F-1B92-4362-B397-99BB93148317}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5CCBFE62-C5B0-4458-9192-A43581854248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +45,26 @@ Global
 		{B4F16C04-C72D-4E19-8D04-FF4B69CECA06}.Release|x64.Build.0 = Release|Any CPU
 		{B4F16C04-C72D-4E19-8D04-FF4B69CECA06}.Release|x86.ActiveCfg = Release|Any CPU
 		{B4F16C04-C72D-4E19-8D04-FF4B69CECA06}.Release|x86.Build.0 = Release|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Debug|x64.Build.0 = Debug|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Debug|x86.Build.0 = Debug|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Release|x64.ActiveCfg = Release|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Release|x64.Build.0 = Release|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Release|x86.ActiveCfg = Release|Any CPU
+		{2443A98F-1B92-4362-B397-99BB93148317}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2443A98F-1B92-4362-B397-99BB93148317} = {C163193E-B1CC-49E6-9C39-9EDBAD0239D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D72FB96-5CD2-46FF-A33B-3EC786198329}
 	EndGlobalSection
 EndGlobal
